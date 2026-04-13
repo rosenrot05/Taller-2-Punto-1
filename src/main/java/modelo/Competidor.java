@@ -33,7 +33,7 @@ public class Competidor {
     public String obtenerDatos() {
         return "Nombre: " + nombre +
                " | Edad: " + edad +
-               " | País: " + pais +
+               " | Pais: " + pais +
                " | Ranking: " + rankingMundial +
                " | Estatura: " + estatura + "m" +
                " | Peso: " + peso + "kg" +
@@ -41,44 +41,58 @@ public class Competidor {
     }
 
     public String getNombre() { 
-        return nombre; }
+        return nombre; 
+    }
     
     public void setNombre(String n) { 
-        this.nombre = n; }
+        this.nombre = n; 
+    }
     
     public int getEdad() { 
-        return edad; }
+        return edad; 
+    }
     
     public void setEdad(int e) { 
-        this.edad = e; }
+        this.edad = e; 
+    }
     
     public String getPais() { 
-        return pais; }
+        return pais; 
+    }
     
     public void setPais(String p) { 
-        this.pais = p; }
+        this.pais = p; 
+    }
     
     public int getRankingMundial() { 
-        return rankingMundial; }
+        return rankingMundial; 
+    }
     
     public void setRankingMundial(int r) { 
-        this.rankingMundial = r; }
+        this.rankingMundial = r; 
+    }
     
     public double getEstatura() { 
-        return estatura; }
+        return estatura; 
+    }
     
     public void setEstatura(double e) { 
-        this.estatura = e; }
+        this.estatura = e; 
+    }
     
     public double getPeso() { 
-        return peso; }
+        return peso; 
+    }
     
     public void setPeso(double p) { 
-        this.peso = p; }
+        this.peso = p; 
+    }
     
     public int getPuntos() { 
-        return puntos; }
+        return puntos; 
+    }
     
     public void setPuntos(int p) { 
-        this.puntos = p; }
+        this.puntos = p; 
+    }
 }
